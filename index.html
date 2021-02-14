@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
@@ -86,10 +85,14 @@
       <section class="video">
         <h2 class="section-title">Видео на TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <div class="video__iframes">
-          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
-          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
-        </div>
+        <ul class="video__iframes">
+          <li>
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+          </li>
+          <li>
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+          </li>
+        </ul>
       </section>
 
       <section class="oakley">
@@ -124,7 +127,7 @@
           </li>
           <li class="table__cell">
             <h3 class="table__heading">2.1 миллиарда</h3>
-            <p class="table__text">Число нуждающихся в повышении квалификации Всемирный Банк, 2017</p>
+            <p class="table__text">Число нуждающихся в повышении квалификации</p>
             <p class="table__text">Всемирный Банк, 2017</p>
           </li>
           <li class="table__cell">
@@ -137,8 +140,8 @@
           </li>
           <li class="table__cell">
             <h3 class="table__heading">420 миллионов</h3>
-            <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства
-              Всемирный Банк, 2017</p>
+            <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
+            <p class="table__text">Всемирный Банк, 2017</p>
           </li>
           <li class="table__cell">
             <h3 class="table__heading">17–20 лет</h3>
@@ -157,14 +160,14 @@
 
       <section class="khan">
         <div class="khan__container">
-          <div class="khan__author">Салман Хан</div>
+          <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
           <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов
-            по всему
-            миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду
+            по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся
+            повсюду
             смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
-          <div class="khan__quote-author">Джордж Лукас</div>
-          <div class="khan__quote-author-subline">Кинорежиссер, продюсер</div>
+          <p class="khan__quote-author">Джордж Лукас</p>
+          <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img class="khan__book-pic" src="images/images_sprint-2/khan-book.jpg" alt="Обложка книги">
             <a class="khan__buy-link hover-link" href="#" target="_blank">Купить книгу →</a>
@@ -287,8 +290,9 @@
                   alt="Ссылка в виде логотипа вконтакте" class="footer__social-icon">Вконтакте</a>
             </li>
             <li>
-              <a href="#" class="footer__column-link hover-link" target="_blank"><img src="./images/instagram_color_white.svg"
-                  alt="Ссылка в виде логотипа инстаграм" class="footer__social-icon">Instagram</a>
+              <a href="#" class="footer__column-link hover-link" target="_blank"><img
+                  src="./images/instagram_color_white.svg" alt="Ссылка в виде логотипа инстаграм"
+                  class="footer__social-icon">Instagram</a>
             </li>
           </ul>
         </nav>
@@ -296,4 +300,5 @@
     </footer>
   </div>
 </body>
+
 </html>
