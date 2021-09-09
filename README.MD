@@ -8,7 +8,7 @@
 
 Простой одностраничный сайт. Для просмотра откройте index.html через любой удобный браузер.
 
-Ссылка на GitHub Pages: https://nikogriffs.github.io/how-to-learn/
+[Ссылка на GitHub Pages](https://nikogriffs.github.io/how-to-learn/)
 
 ## **Планы по доработке:**
 
